@@ -11,3 +11,54 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+  
+  .semaforo {
+    height: 400px;
+    width: 100px;
+    background-color: black;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 25px;
+  }
+
+  .tubo {
+    height: 100px;
+    width: 10px;
+    background-color: black;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .verde{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .amarillo{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.rojo{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.iluminado {
+    box-shadow:
+    0 0 60px 30px white,
+}
+
